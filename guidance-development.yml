@@ -19,3 +19,6 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       filters: stat,wall,log4j
       useGlobalDataSourceStat: true
+kingdeehit:
+  api-gateway: "https://dev.mhealth100.com/gateway"
+  host: "https://dev.mhealth100.com"
