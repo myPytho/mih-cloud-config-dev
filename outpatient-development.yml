@@ -19,3 +19,5 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       filters: stat,wall,log4j
       useGlobalDataSourceStat: true
+mydoctor:
+  url: https://test3.mhealth100.com/ip-healthmanager-mobile-web/external
