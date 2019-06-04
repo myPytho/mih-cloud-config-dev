@@ -29,8 +29,8 @@ bsbank:
   pay:
     enviroment: 0  #开发测试环境设置为0，正式环境设置为1
     
-abc
-  pay
-    v6
+abc:
+  pay:
+    v6:
      mchid:103881725010253 #多个用英文逗号分隔，商户号和密码顺序要对应
      secret:jzyy0253
