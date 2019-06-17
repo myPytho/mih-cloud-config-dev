@@ -265,3 +265,7 @@ management:
       enabled: true
     binders: 
       enabled: true
+miniprogram:
+  wechat:
+    appid: "{cipher}AQCBVdev4SryG8nZ6jiU5cNbodyC2ahMRYNk6XdH9l0tDevz7eUbH+frpuWnqBrsPAT70JS5saG8Z0b7e4kN4LWpj3NeobpW+/Mrn8KMh0dlKgerqCHKtinFyw1Nuo9oRUfpMR24Bdsa69Rrack0WAgIuwTkaPKbg0I8bPEOQ1yHdbxXJfAY7e600rQI7xlZrUxd6SvD+vwqi5//qIQB7VqKgH/TuMUNUUqpabPf7TVvyaBVkV9G4BGtBtTQnh5iLeFZ7TVpZnBHVZ5nZlsV7e1tWq/IiSeiL9b11zRmwKhz4uUbeDdVrFb189YMJi8okWiPzZ7UaD2JZ17MyBlHjn4Bg11OMHKhKCmk0BfXPouhiPL6GsHFD4zn1ZeVyURG8cFctgSkUN6kpXbpm0IEKQFW"
+    secret: "{cipher}AQBvYt6io83kXHx2/vnXf5mBJoEU5c27jKLm/eH97xUdPfD/hyw6rVEFROLxPBG7WdeOqP+ZhOmH+kn0c83Fhl8pVKhpLmnq9YTBYwtLbYvK60WF3MwHuwHzi0jlJJki4+4Ys6EPiPViPOQHrAIfxHkdj4o7a8QUHeNcnIYKWqD5kaiWF7BMhAwU4w2U2z+tNKP6WrGT5QZ9jCoQOmxBvZoEW0Q7A1O/eM+KEVaZu6GZ7JjJ4C0mXANvIUURgZpeCV/9K9brRuz7f60f9YC7sKMtcoQ8+GYi2IFqUhcsg4p1vh+ZPQJZZqQufPUOt6pbMt/DO7bMk0KrsXdR3bH7A4EWWycUwcNsP0a7TLYjeM8KXa4DIC/c8Gm+2wxge45LxLPokmSWaJBDAQyksZ//KQbrc/jzKT/Lj4r49LNYX9OKRg=="
