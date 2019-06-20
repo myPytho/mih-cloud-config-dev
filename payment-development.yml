@@ -33,5 +33,8 @@ abc:
   pay:
     v6:
      mchid: 103881725010253 #多个用英文逗号分隔，商户号，商户证书路径和密码的顺序要对应
-     certPath: G:/abc/cert/103881725010253.pfx
-     secret: jzyy0253
+     merchantCertPath: G:/abc/cert/103881725010253.pfx
+     merchantSecret: jzyy0253
+     trustPayCertFilePath: G:/abc/cert/TrustPay.cer
+     trustStoreFilePath: G:/abc/cert/abc.truststore
+     trustStorePassword: changeit
