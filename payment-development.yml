@@ -32,6 +32,4 @@ bsbank:
 abc:
   pay:
     v6:
-     trustPayCertFilePath: http://cert-1251306874.cosgz.myqcloud.com/abc/TrustPay.cer?sign=
-     trustStoreFilePath: http://cert-1251306874.cosgz.myqcloud.com/abc/abc.truststore?sign=
      trustStorePassword: changeit
