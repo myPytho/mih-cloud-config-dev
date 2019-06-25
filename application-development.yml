@@ -132,6 +132,24 @@ spring:
             headerMode: embeddedHeaders
           producer: 
             headerMode: embeddedHeaders
+        report-data-output: 
+          binder: report-data
+          destination: report.data
+          group:  ${spring.application.name}-report.data.out
+          consumer: 
+            max-attempts: 1
+            headerMode: embeddedHeaders
+          producer: 
+            headerMode: embeddedHeaders
+        report-data-input: 
+          binder: report-data
+          destination: report.data
+          group:  ${spring.application.name}-report.data.in
+          consumer: 
+            max-attempts: 1
+            headerMode: embeddedHeaders
+          producer: 
+            headerMode: embeddedHeaders
         
       binders: 
         cloud-bus: 
@@ -153,6 +171,15 @@ spring:
                     binder:
                       brokers: 10.0.0.110
         pay-notify:   
+          type: kafka
+          environment:
+            spring:
+              cloud:
+                stream:
+                  kafka:
+                    binder:
+                      brokers: 10.0.0.110
+        report-data:   
           type: kafka
           environment:
             spring:
