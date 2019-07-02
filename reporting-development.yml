@@ -2,7 +2,7 @@ spring:
   datasource:
     reporting: 
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://10.0.0.162:3306/REPORTING?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      jdbc-url: jdbc:mysql://10.0.0.162:3306/REPORTING?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=false
       username: root
       password: kingdee8349
       hikari:
@@ -10,7 +10,7 @@ spring:
         maximumPoolSize: 100 #连接池中允许的最大连接数。缺省值：10
     logging: 
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://10.0.0.162:3306/LOG?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      jdbc-url: jdbc:mysql://10.0.0.162:3306/LOG?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=false
       username: root
       password: kingdee8349
       time-between-eviction-runs-millis: 18800
